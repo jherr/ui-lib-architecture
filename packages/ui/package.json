@@ -1,0 +1,42 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch --outDir dist",
+    "build": "tsc --outDir dist",
+    "lint": "eslint *.ts*",
+    "storybook": "start-storybook",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.5.6",
+    "@storybook/addon-interactions": "^6.5.6",
+    "@storybook/addon-links": "^6.5.6",
+    "@storybook/react": "^6.5.6",
+    "@storybook/testing-library": "^0.0.11",
+    "@testing-library/react": "^13.2.0",
+    "@types/jest": "^27.5.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-test-renderer": "^18.1.0",
+    "store": "workspace:*",
+    "ts-jest": "^28.0.4",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.2.6",
+    "@mantine/hooks": "^4.2.6",
+    "react-router-dom": "^6.3.0"
+  }
+}
